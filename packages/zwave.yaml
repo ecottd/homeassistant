@@ -1,0 +1,4 @@
+zwave:
+  usb_path: /dev/ttyACM0
+  polling_interval: 2000
+  autoheal: true

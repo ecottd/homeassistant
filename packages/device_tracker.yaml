@@ -1,0 +1,14 @@
+device_tracker:
+  - platform: unifi_direct
+    host: !secret unifi_ap_1_ip_address
+    username: !secret hass_unifi_ap_user
+    password: !secret hass_unifi_ap_password
+    interval_seconds: 10
+    consider_home: 180
+
+  - platform: unifi_direct
+    host: !secret unifi_ap_2_ip_address
+    username: !secret hass_unifi_ap_user
+    password: !secret hass_unifi_ap_password
+    interval_seconds: 10
+    consider_home: 180
