@@ -68,9 +68,6 @@ tts:
 # Simple Service Discover Protocol enablement
 ssdp:
 
-# Cloud
-cloud:
-
 # Enable notifications
 notify:
 
