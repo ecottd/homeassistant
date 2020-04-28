@@ -1,0 +1,19 @@
+# Ignore ZWave log files and device IDs
+zwcfg*
+zwscene.xml
+
+# Ignore secrets
+secrets.yaml
+
+# Ignore other stuff
+emulated_hue_ids.json
+known_devices.yaml
+.cloud
+.storage/*
+.uuid
+.HA_VERSION
+home-assistant*
+OZW_Log.txt
+tts/*
+options.xml
+pyozw.sqlite
